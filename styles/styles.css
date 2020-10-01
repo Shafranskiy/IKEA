@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
-* Browsers: last 4 version
+* Browsers: last 4 
 */
 
 @font-face {
@@ -608,6 +608,7 @@ footer {
 .goods-list {
 	display: -ms-grid;
 	display: grid;
+	grid-gap: 1.25rem;
 	grid-template-columns: repeat(4, 1fr);
 }
 
